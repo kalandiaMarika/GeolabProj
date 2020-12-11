@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502C0F6D25835272009FF971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C0F6C25835272009FF971 /* AppDelegate.swift */; };
+		502C0F6F25835272009FF971 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C0F6E25835272009FF971 /* SceneDelegate.swift */; };
+		502C0F7425835272009FF971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502C0F7225835272009FF971 /* Main.storyboard */; };
+		502C0F7625835273009FF971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502C0F7525835273009FF971 /* Assets.xcassets */; };
+		502C0F7925835273009FF971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502C0F7725835273009FF971 /* LaunchScreen.storyboard */; };
+		502C0F8425835281009FF971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C0F8225835281009FF971 /* ViewController.swift */; };
+		502C0F8525835281009FF971 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C0F8325835281009FF971 /* ListTableViewController.swift */; };
+		502C0F8A25835290009FF971 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C0F8925835290009FF971 /* ListTableViewCell.swift */; };
+		502C0F8E2583529A009FF971 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C0F8D2583529A009FF971 /* Contact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		502C0F6925835272009FF971 /* GeolabProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeolabProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		502C0F6C25835272009FF971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		502C0F6E25835272009FF971 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		502C0F7325835272009FF971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		502C0F7525835273009FF971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		502C0F7825835273009FF971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		502C0F7A25835273009FF971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502C0F8225835281009FF971 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		502C0F8325835281009FF971 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		502C0F8925835290009FF971 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		502C0F8D2583529A009FF971 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502C0F6625835272009FF971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502C0F6025835272009FF971 = {
+			isa = PBXGroup;
+			children = (
+				502C0F6B25835272009FF971 /* GeolabProject */,
+				502C0F6A25835272009FF971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		502C0F6A25835272009FF971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				502C0F6925835272009FF971 /* GeolabProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		502C0F6B25835272009FF971 /* GeolabProject */ = {
+			isa = PBXGroup;
+			children = (
+				502C0F6C25835272009FF971 /* AppDelegate.swift */,
+				502C0F6E25835272009FF971 /* SceneDelegate.swift */,
+				502C0F7225835272009FF971 /* Main.storyboard */,
+				502C0F8C2583529A009FF971 /* Models */,
+				502C0F7525835273009FF971 /* Assets.xcassets */,
+				502C0F8125835281009FF971 /* ViewControllers */,
+				502C0F7725835273009FF971 /* LaunchScreen.storyboard */,
+				502C0F8825835290009FF971 /* Cells */,
+				502C0F7A25835273009FF971 /* Info.plist */,
+			);
+			path = GeolabProject;
+			sourceTree = "<group>";
+		};
+		502C0F8125835281009FF971 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				502C0F8225835281009FF971 /* ViewController.swift */,
+				502C0F8325835281009FF971 /* ListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		502C0F8825835290009FF971 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				502C0F8925835290009FF971 /* ListTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		502C0F8C2583529A009FF971 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				502C0F8D2583529A009FF971 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		502C0F6825835272009FF971 /* GeolabProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502C0F7D25835273009FF971 /* Build configuration list for PBXNativeTarget "GeolabProject" */;
+			buildPhases = (
+				502C0F6525835272009FF971 /* Sources */,
+				502C0F6625835272009FF971 /* Frameworks */,
+				502C0F6725835272009FF971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeolabProject;
+			productName = GeolabProject;
+			productReference = 502C0F6925835272009FF971 /* GeolabProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		502C0F6125835272009FF971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					502C0F6825835272009FF971 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 502C0F6425835272009FF971 /* Build configuration list for PBXProject "GeolabProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 502C0F6025835272009FF971;
+			productRefGroup = 502C0F6A25835272009FF971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				502C0F6825835272009FF971 /* GeolabProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		502C0F6725835272009FF971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502C0F7925835273009FF971 /* LaunchScreen.storyboard in Resources */,
+				502C0F7625835273009FF971 /* Assets.xcassets in Resources */,
+				502C0F7425835272009FF971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502C0F6525835272009FF971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502C0F8E2583529A009FF971 /* Contact.swift in Sources */,
+				502C0F6D25835272009FF971 /* AppDelegate.swift in Sources */,
+				502C0F8425835281009FF971 /* ViewController.swift in Sources */,
+				502C0F8525835281009FF971 /* ListTableViewController.swift in Sources */,
+				502C0F6F25835272009FF971 /* SceneDelegate.swift in Sources */,
+				502C0F8A25835290009FF971 /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		502C0F7225835272009FF971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502C0F7325835272009FF971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		502C0F7725835273009FF971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502C0F7825835273009FF971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		502C0F7B25835273009FF971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		502C0F7C25835273009FF971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		502C0F7E25835273009FF971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA94869V6U;
+				INFOPLIST_FILE = GeolabProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geolab.geoLab-proj.GeolabProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		502C0F7F25835273009FF971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA94869V6U;
+				INFOPLIST_FILE = GeolabProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geolab.geoLab-proj.GeolabProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		502C0F6425835272009FF971 /* Build configuration list for PBXProject "GeolabProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502C0F7B25835273009FF971 /* Debug */,
+				502C0F7C25835273009FF971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502C0F7D25835273009FF971 /* Build configuration list for PBXNativeTarget "GeolabProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502C0F7E25835273009FF971 /* Debug */,
+				502C0F7F25835273009FF971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 502C0F6125835272009FF971 /* Project object */;
+}
